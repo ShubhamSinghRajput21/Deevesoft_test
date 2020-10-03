@@ -1,0 +1,48 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.landing__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+.landing__container > form > h5 {
+  margin-bottom: 5px;
+}
+.landing__container > form > div > div > h5 {
+  margin-bottom: 5px;
+}
+.landing__containerInputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.landing__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 96%;
+  border-radius: 5px;
+}
+.landing__container > form > div > div > input {
+  height: 30px;
+  background-color: white;
+  width: 96%;
+  border-radius: 5px;
+}
+.landing__containerSubDiv {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.landing__container > form > button {
+  height: 35px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #00e600;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: darkgray;
+}
